@@ -85,7 +85,7 @@ export default {
       const currentFullDate = new Date().toDateString();
       
 
-      return calenderFullDate == currentFullDate ? 'text-yellow-600':''
+      return calenderFullDate == currentFullDate ? 'text-yellow-600 ':''
     }
   },
   computed: {
